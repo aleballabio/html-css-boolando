@@ -6,47 +6,104 @@
 
 .contenitore {
     width: 90%;
-    max-width: 799px;
+    max-width: 850px;
     margin: 10px auto;
 }
 
 
 .sezioneimmagini {
     background-color: blue; 
-    height: 600px;
-    margin-bottom: .6em;
+    height: 420px;
+    margin-bottom: .7em;
 }
 
 .sezioneimmagini::after {
     content: "";
     display: table;
     clear: both;
-
 }
 
 .immagine {
-    width: 263px;
-    height: 320px;
-    background-color: lightblue;
+    width: 275px;
+    height: 380px;
     float: left;
+    position: relative;
+}
+
+.hearts {
+    background-color: white;
+    border: solid white;
+    border-width: 1px;
+    color: black;
+    position: absolute;
+    padding: 2px 7px;
+    top: 5%;
+    right: 0%;
+    font-size: 1.1em;
+}
+
+.tag {
+    list-style: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    
+}
+
+.tag > li {
+    display: inline-block;
+    color: white;
+    line-height: 2em;
+    font-size: .7em;
+    margin-right: 2px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sconto {
+    background-color: red;
+    border: solid red;
+    border-width: red;
 }
 
 .immagine.centrale {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .sezioneimmagini > div {
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
+
 .first {
     background-image: url(../img/1.webp);
 
 }
 
+.second {
+    background-image: url(../img/2.webp);
 
+}
 
+.third {
+    background-image: url(../img/3.webp);
+
+}
+
+.fourth {
+    background-image: url(../img/4.webp);
+
+}
+
+.fifth {
+    background-image: url(../img/5.webp);
+
+}
+
+.sixth {
+    background-image: url(../img/6.webp);
+}
 
 
 
