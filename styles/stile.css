@@ -109,6 +109,7 @@ h1 {
 
 .prezzo, .prezzoscontato {
     vertical-align: super;
+    padding: 0;
 }
 
 .prezzo {
