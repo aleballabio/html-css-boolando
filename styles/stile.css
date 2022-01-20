@@ -11,10 +11,9 @@
 }
 
 
-.sezioneimmagini {
-    background-color: blue; 
+.sezioneimmagini { 
     height: 480px;
-    margin-bottom: .7em;
+    margin-bottom: 27px;
 }
 
 .sezioneimmagini::after {
@@ -22,6 +21,8 @@
     display: table;
     clear: both;
 }
+
+/* Immagine e Tag */
 
 .immagine {
     width: 275px;
@@ -84,6 +85,46 @@
     background-position: center;
 }
 
+/* Proddotto e prezzo */
+
+article {
+    position: absolute;
+    bottom: -48px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: black;
+}
+
+.marca {
+    font-size: 1.1em;
+    font-family: 'Dongle', sans-serif; 
+    line-height: 1px;
+}
+
+h1 {
+    font-size: .6em;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.prezzo, .prezzoscontato {
+    vertical-align: super;
+}
+
+.prezzo {
+    font-size: .5em;
+    font-weight: bold;
+    color: red;
+}
+
+
+.prezzoscontato {
+    font-size: .6em;
+    text-decoration: line-through;
+}
+
+/* Immagini */
+
 .first {
     background-image: url(../img/1.webp);
 
@@ -112,6 +153,7 @@
 .sixth {
     background-image: url(../img/6.webp);
 }
+
 
 
 
