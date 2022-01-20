@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenitore {
+    width: 90%;
+    max-width: 799px;
+    margin: 10px auto;
+}
+
+
+.sezioneimmagini {
+    background-color: blue; 
+    height: 600px;
+    margin-bottom: .6em;
+}
+
+.sezioneimmagini::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.immagine {
+    width: 263px;
+    height: 320px;
+    background-color: lightblue;
+    float: left;
+}
+
+.immagine.centrale {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sezioneimmagini > div {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.first {
+    background-image: url(../img/1.webp);
+
+}
+
+
+
+
+
+
