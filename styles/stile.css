@@ -7,13 +7,13 @@
 .contenitore {
     width: 90%;
     max-width: 850px;
-    margin: 10px auto;
+    margin: 5px auto;
 }
 
 
 .sezioneimmagini {
     background-color: blue; 
-    height: 420px;
+    height: 480px;
     margin-bottom: .7em;
 }
 
@@ -25,7 +25,7 @@
 
 .immagine {
     width: 275px;
-    height: 380px;
+    height: 440px;
     float: left;
     position: relative;
 }
@@ -36,7 +36,7 @@
     border-width: 1px;
     color: black;
     position: absolute;
-    padding: 2px 7px;
+    padding: 2px 5px;
     top: 5%;
     right: 0%;
     font-size: 1.1em;
@@ -45,24 +45,32 @@
 .tag {
     list-style: none;
     position: absolute;
-    top: 0%;
     left: 0%;
+    bottom: 2%;
     
 }
 
 .tag > li {
     display: inline-block;
     color: white;
-    line-height: 2em;
-    font-size: .7em;
-    margin-right: 2px;
+    line-height: 1.1em;
+    font-size: .5em;
+    margin-right: 1px;
     font-family: 'Roboto', sans-serif;
+    border-width: 1px;
+    padding: 2px 2px;
 }
 
 .sconto {
     background-color: red;
     border: solid red;
-    border-width: red;
+    
+}
+
+.sostenibilità {
+    background-color: green;
+    border: solid green;
+    
 }
 
 .immagine.centrale {
