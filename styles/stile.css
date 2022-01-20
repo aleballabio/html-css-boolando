@@ -125,10 +125,22 @@ h1 {
 
 /* Immagini */
 
+img {
+    width: 275px;
+    height: 440px;
+    object-fit: cover;
+    object-position: center;
+    display: none;
+}
+
+.immagine:hover img{
+    display: block;
+}
+
 .first {
     background-image: url(../img/1.webp);
-
 }
+
 
 .second {
     background-image: url(../img/2.webp);
@@ -153,7 +165,3 @@ h1 {
 .sixth {
     background-image: url(../img/6.webp);
 }
-
-
-
-
