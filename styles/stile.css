@@ -7,7 +7,7 @@
 .contenitore {
     width: 95%;
     max-width: 850px;
-    margin: 3px auto;
+    margin: 0 auto;
 }
 
 
@@ -101,8 +101,8 @@ article {
     line-height: 1px;
 }
 
-h1 {
-    font-size: .6em;
+h2 {
+    font-size: .8em;
     margin: 0;
     text-transform: uppercase;
 }
